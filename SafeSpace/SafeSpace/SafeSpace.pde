@@ -40,20 +40,18 @@ void setup() {
 
   Helvetica_bold = createFont("Helvetica-Bold", 32);
   textFont(Helvetica_bold);
+
   String s1 = "HIER";
   String s2 = "IST EIN";
   String s3 = "SAFE";
   String s4 = "SPACE";
-  String s5 = "!!!";
+
   Text.add(s1);
   Text.add(s2);
   Text.add(s3);
   Text.add(s4);
-  Text.add(s5);
 
-
-
-  size(1000, 2010);
+  size(1000, 1100);
   fill(255, 0, 255);
   background(0, 255, 255);
   Print(Text);
